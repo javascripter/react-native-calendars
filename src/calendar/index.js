@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {View} from 'react-native';
-import PropTypes from 'prop-types';
 import XDate from 'xdate';
 
 import dateutils from '../dateutils';
@@ -14,6 +13,8 @@ import SingleDay from './day/custom';
 import CalendarHeader from './header';
 import shouldComponentUpdate from './updater';
 import {SELECT_DATE_SLOT} from '../testIDs';
+
+const EmptyArray = [];
 
 /**
  * @description: Calendar component

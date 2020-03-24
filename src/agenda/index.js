@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Text, View, Dimensions, Animated} from 'react-native';
-import PropTypes from 'prop-types';
 import XDate from 'xdate';
 
 import {parseDate, xdateToData} from '../interface';
